@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
+
+body{
+    width: 100%;
+
+   
+}
+.container{
+    margin: 2% 10% 0 10%;
+    width: 80%;
+    background-color: rgba(128, 128, 128, 0.877);
+   
+}
+.container header {
+    display: flex;
+    justify-content:center ;
+    background-color: bisque;
+    height:max-content ;
+}
+.container header .profile figcaption{
+    color: darkkhaki;
+
+}
+.container .contact{
+    width: 100%;
+    height: max-content;
+    background-color: rgb(129, 122, 122);
+}
+.container .contact i{
+    padding: 15px;
+    justify-content:space-evenly;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.container .description{
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    font-size: 24px;
+    text-indent: 5cm;
+    text-align: justify;
+    color: rgba(240, 239, 232, 0.884);
+}
+ul li{
+   
+    list
+}
+
+.main{
+ display: flex;
+
+}
+.left{
+    width: 30%;
+	float: left;
+    //background-color: aqua;
+    
+
+}
+h2{
+    font-family:'Poppins', sans-serif ;
+    color:rgba(12, 46, 110, 0.705);
+    font-size: 3vmin;
+    padding-left: 10px;
+}
+.left  p, ul li{
+    padding-left: 20px;
+    margin: 20px;
+    color:rgba(240, 239, 232, 0.884); 
+    font-size: 3vmin;
+    list-style-type:disc;
+    list-style-position: inside;
+}
+ h3{
+    margin: 20px;
+    color: rgba(0, 0, 0, 0.877);
+
+}
+.right{
+    width: 70%;
+	float: left;
+    //background-color: blue;
+    margin-left:20px;
+}
+footer{
+    height: 40px;
+    
+}
+footer h4{
+    text-align: center;
+    padding: 15px;
+    color: rgba(240, 248, 255, 0.493);
+}
+span{
+    font-style: italic;
+    
+}
+a{
+    text-decoration: none;
+}
